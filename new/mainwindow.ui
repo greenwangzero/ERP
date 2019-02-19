@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>396</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>396</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="purchase">
+    <property name="title">
+     <string>采购模块</string>
+    </property>
+    <addaction name="actionTian"/>
+    <addaction name="actionR"/>
+   </widget>
+   <widget class="QMenu" name="transform">
+    <property name="title">
+     <string>物流模块</string>
+    </property>
+    <addaction name="actionJin"/>
+    <addaction name="actionAd"/>
+    <addaction name="action123"/>
+    <addaction name="action12"/>
+   </widget>
+   <widget class="QMenu" name="sale">
+    <property name="title">
+     <string>销售模块</string>
+    </property>
+    <addaction name="action1"/>
+    <addaction name="action2"/>
+   </widget>
+   <widget class="QMenu" name="instore">
+    <property name="title">
+     <string>库存模块</string>
+    </property>
+    <addaction name="action1_2"/>
+    <addaction name="action2_2"/>
+   </widget>
+   <widget class="QMenu" name="payment">
+    <property name="title">
+     <string>收付模块</string>
+    </property>
+    <addaction name="actionQ"/>
+    <addaction name="action2_3"/>
+   </widget>
+   <addaction name="purchase"/>
+   <addaction name="transform"/>
+   <addaction name="sale"/>
+   <addaction name="instore"/>
+   <addaction name="payment"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="first"/>
+   <addaction name="second"/>
+   <addaction name="third"/>
+  </widget>
+  <action name="actionTian">
+   <property name="text">
+    <string>美金交易</string>
+   </property>
+  </action>
+  <action name="actionR">
+   <property name="text">
+    <string>人民币交易</string>
+   </property>
+  </action>
+  <action name="actionJin">
+   <property name="text">
+    <string>添加进库单</string>
+   </property>
+  </action>
+  <action name="actionAd">
+   <property name="text">
+    <string>修改进库单</string>
+   </property>
+  </action>
+  <action name="action123">
+   <property name="text">
+    <string>添加进口单</string>
+   </property>
+  </action>
+  <action name="action12">
+   <property name="text">
+    <string>添加转口单</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="text">
+    <string>销售单</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>出库单</string>
+   </property>
+  </action>
+  <action name="action1_2">
+   <property name="text">
+    <string>薄膜查询</string>
+   </property>
+  </action>
+  <action name="action2_2">
+   <property name="text">
+    <string>胶带查询</string>
+   </property>
+  </action>
+  <action name="actionQ">
+   <property name="text">
+    <string>确认收付</string>
+   </property>
+  </action>
+  <action name="action2_3">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="first">
+   <property name="text">
+    <string>导入excel</string>
+   </property>
+  </action>
+  <action name="second">
+   <property name="text">
+    <string>导出到excel</string>
+   </property>
+  </action>
+  <action name="third">
+   <property name="text">
+    <string>打印</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
